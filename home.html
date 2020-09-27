@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="vanta-canvas">
+
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">logo</a>
+        <span class="navbar-toggle" id="js-navbar-toggle">
+        menu
+        </span>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="index.html" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="gallery.html" class="nav-links">Gallery</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-links">Contact Me</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Blog</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="typewriter">
+    <h1>Welcome to my portfolio...</h1>
+</div>
+<div class="header-area">
+<h2>This website is 
+    <span class="animate">
+
+    </span>
+</h2>
+</div>
+
+
+<script src="js/three.r119.min.js"></script>
+<script src="js/vanta.waves.min.js"></script>
+<script type="text/javascript">
+    VANTA.WAVES({
+        el: "#vanta-canvas",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: window.innerHeight,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x568a,
+        shininess: 37.00,
+        waveHeight: 24.50,
+        waveSpeed: 1.40,
+        zoom: 0.88
+    })
+</script>
+<script src="js/home.js"></script>
+<script src="js/typed.js"></script>
+<script>
+    var typed = new Typed(".animate", {
+        strings: [
+            "",
+            "interactive",
+            "cool",
+            "eye-cathing",
+            "basic"
+        ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+    });
+</script>
+</body>
+</html>

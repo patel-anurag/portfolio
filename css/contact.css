@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Work Sans", "Helvetica", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1F2833 0%,#1F2833 63%, #2E3440 63%, #2E3440 75%, #3B4252 75%, #3B4252 81%, #3B4252 81%, #3B4252 85%, #4C566A 85%, #4C566A 90%, #646f84 90%, #646f84 100%);
+    min-height: 100vh;
+    width: 99.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: snow;
+    font-weight: bold;
+
+}
+
+p {
+    color: #6e81cf;
+}
+
+.initial {
+    margin: 70px 0px 20px 10px;
+}
+
+.bar {
+    padding: 10px 90px 10px 20px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 85%;   
+}
+
+button {
+    width: 85%;
+    background-color: rgb(45, 45, 198);
+    text-align: center; 
+}
+
+img {
+    margin: 20px;
+    padding: 5px;
+}
