@@ -62,3 +62,11 @@ body {
 .header-area h2 span {
     color: snow;
 }
+
+footer {
+    text-align: end;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 75%;
+}
